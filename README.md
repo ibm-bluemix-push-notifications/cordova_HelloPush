@@ -295,7 +295,7 @@ Now you can run your application in your mobile emulator or on your device.
 	cordova run android
 	```
 
-**IMPORTANT: For further reference please visit - https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-cordova-plugin-push/blob/master/README.md
+**IMPORTANT: For further reference please visit - [Cordova Push Plugin](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-cordova-plugin-push/blob/master/README.md)
 
 ***Note: If testing iOS you need to use a real device connected to your network and build/run from Xcode to register for and receive notifications.***
 
