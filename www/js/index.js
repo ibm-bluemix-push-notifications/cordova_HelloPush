@@ -41,7 +41,8 @@ var app =  {
     // variables, we must explicitly call 'app.route' and 'app.guid'
     onDeviceReady: function() {
         BMSClient.initialize(BMSClient.REGION_US_SOUTH);
-        BMSPush.initialize(appGUID,clientSecret);
+        var category =  {};
+        BMSPush.initialize(appGUID,clientSecret,category);
     },
 
     // Register for Push Notifications
